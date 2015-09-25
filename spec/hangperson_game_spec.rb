@@ -8,7 +8,7 @@ describe HangpersonGame do
       game.guess(letter)
     end
   end
-
+exception
   describe 'new' do
     it "takes a parameter and returns a HangpersonGame object" do      
       @hangpersonGame = HangpersonGame.new('glorp')
